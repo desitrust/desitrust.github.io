@@ -1,0 +1,31 @@
+@font-face {  font-family: "Trocchi";  font-style: normal; font-weight:400 ; src: url('../fonts/trocchi/Trocchi-Regular.ttf'); }
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Trocchi", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+.desi-background-1 {
+	background-image: url('../images/bg.jpg');
+	background-attachment: fixed;
+}
+
+.desi-background-2 {
+	background-image: url('../images/bg2.jpg');
+	background-attachment: fixed;
+}
+
+.desi-background-3 {
+	background-image: url('../images/handloom.jpg');
+	background-attachment: fixed;
+}
+
+.rp-thin-line {
+	border: 0px solid white !important;
+	background-color: gray !important;
+	height: 1px;
+}

@@ -1,320 +1,376 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
+<html>
+    <head>
+	<meta name="generator" content="Hugo 0.75.1" />
 	<title>DESI Trust</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" > 
-
+	<link rel="stylesheet" href="https://desitrust.org/css/bulma.min.css">
+	<script src="https://desitrust.org/js/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://desitrust.org/css/fontawesome.css">
+	<link rel="stylesheet" href="https://desitrust.org/css/rp.css">
+	
+	<script>
+		$(document).ready(function() {
+			$(".navbar-burger").click(function() {
+				$(".navbar-burger").toggleClass("is-active");
+				$(".navbar-menu").toggleClass("is-active");
+			});
+		});
+	</script>
+	<link rel="icon" href="https://desitrust.org/images/favicon.png" >
 </head>
 
-<body>
-
-   <!-- Header
-   ================================================== -->
-   <header>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <div class="logo">
-               <a href="index.html"><img alt="" src="images/logo.png"></a>
-            </div>
-
-            <nav id="nav-wrap">
-
-               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-               <ul id="nav" class="nav">
-
-	               <li class="current"><a href="index.html">Home</a></li>
-	               <li><span><a href="story.html">About</a></span>
-                     <ul>
-                        <li><a href="story.html">Story</a></li>
-                        <li><a href="achievements.html">Achievements</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="trustees.html">Trustees</a></li>
-                        
-                     </ul>	               
-	               </li>
-	               <li><a href="philosophy.html">Philosophy</a></li>
-	               <li><span><a href="naturaldyes.html">Process</a></span>
-                     <ul>
-                        <li><a href="naturaldyes.html">Natural Dyes</a></li>						 
-                        <li><a href="handloom.html">Handloom</a></li>
-                        <li><a href="handloomvskhadi.html">Handloom vs Khadi</a></li>
-                     </ul>	               
-	               
-	               </li>
-                  <li><a href="products.html">Products</a></li>
-
-	               <li><span><a href="weaversbonus.html">Initiatives</a></span>
-                     <ul>
-						 <li><a href="weaversbonus.html">Weavers' Bonus</a></li>
-                        <li><a href="satyagraha.html">Satyagraha</a></li>						 
-                        <!--li><a href="advocacy.html">Advocacy</a></li>
-                        <li><a href="collaboration.html">Collaboration</a></li-->
-                     </ul>	               
-	               
-	               </li>
-                  <li><a href="contact.html">Contact</a></li>
-
-               </ul> <!-- end #nav -->
-
-            </nav> <!-- end #nav-wrap -->
-
-         </div>
-
-      </div>
-
-   </header> <!-- Header End -->
-
-   <!-- Intro Section
-   ================================================== -->
-   <section id="intro">
-
-      <!-- Flexslider Start-->
-	   <div id="intro-slider" class="flexslider">
-
-		   <ul class="slides">
-
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>D<span>.</span>E<span>.</span>S<span>.</span>I</h1>
-							   <p>DESI is not just a handloom store, it is much more. It strives to provide decent livelihood for handloom workers, 
-							   work in ecologically sensitive areas and introduce alternate forms of employment, provide an economically viable alternative to 
-							   villagers to ensure they do not migrate, focus on eco-friendly practices and advocate rights of handloom workers.</p>
-						   </div>
-                     <!--div class="slider-image">
-                        <img src="images/sliders/desi.jpg" alt="" />
-                     </div-->						   
-					   </div>
-				   </div>
-			   </li>
-			   
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Handloom<span>.</span></h1>
-							   <p>Handloom is the name given to fabric that is woven by a hand-operated weaving machine or "loom". It is also referred to as "hand woven". Handloom fabric came into being during 19th century when the British started producing cotton yarn using automatic machines at factories in England and dumping it on our weavers.</p>
-						   </div>
-					   </div>
-				   </div>
-			   </li>	
-			   
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Natural Dyes<span>.</span></h1>
-							   <p>Natural dyes are extracted from naturally available plant ingredients like indigo, Pomegranate, Myrobalan, Kasimkari, Arecanut juice, Jack wood and other natural materials. There are no harmful chemicals used in the entire process, thus making this environmentally friendly. The natural dyed clothes are easy on the skin as well.</p>
-						   </div>
-					   </div>
-				   </div>
-			   </li>	
-			   
-			   <!-- Slide -->
-			   <li>
-				   <div class="row">
-					   <div class="twelve columns">
-						   <div class="slider-text">
-							   <h1>Satyagraha<span>.</span></h1>
-							   <p>While DESI continues to provide market for handloom and hand crafted products on one side, DESI also believes in supporting causes and movements such as ones promoting sustainable living, livelihood of handloom workers, environmental concerns and social justice.</p>
-						   </div>
-					   </div>
-				   </div>
-			   </li>				   
-
-		   </ul>
-
-	   </div> <!-- Flexslider End-->
-
-   </section> <!-- Intro Section End-->
-
-   <!-- Info Section
-   ================================================== -->
-   <section id="info">
-
-      <div class="row">
-
-         <div class="bgrid-quarters s-bgrid-halves">
-
-           <div class="columns">
-              <h2>Sustainability</h2>
-
-              <p> Reviving traditional practices of Natural dyeing and Hand operated processes to ensure least ecological impact and lesser dependence on machinery.
-              </p>
-              
-           </div>
-
-           <div class="columns s-first">
-              <h2>Rural Empowerment</h2>
-
-              <p>Promoting rural enterprises by providing alternative means of livelihood to villagers and augmenting their income in ecologically sensitive areas.
-              </p>
-           </div>
-
-           <div class="columns">
-              <h2>Ecological Impact</h2>
-
-              <p>Striving for minimum ecological impact due to adoption of methodologies that are least damaging
-              </p>
-           </div>
-
-           <div class="columns">
-              <h2>Affordability</h2>
-
-              <p>Ensuring that the products are priced fairly for both the producer and consumer to make them affordable
-              </p>
-           </div>
-
-           </div>
-
-      </div>
-
-   </section> <!-- Info Section End-->
-
-   <!-- Works Section
-   ================================================== -->
-   <section id="works">
-
-      <div class="row">
-
-         <!--div class="twelve columns align-center">
-            <h1>Products</h1>
-         </div-->
-
-         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-halves">
-
-    		   <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="products.html">
-                     <img alt="" src="images/home/home3.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<!--div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Geometrics</a></h5>
-    					</div-->
-               </div>
-    			</div>
-
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="products.html">
-                     <img alt="" src="images/home/home2.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<!--div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Console</a></h5>
-    					</div-->
-               </div>
-    			</div>
-
-            <div class="columns portfolio-item s-first">
-               <div class="item-wrap">
-    				   <a href="products.html">
-                     <img alt="" src="images/home/home4.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<!--div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Camera Man</a></h5>
-    					</div-->
-               </div>
-    			</div>
-
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
-    				   <a href="products.html">
-                     <img alt="" src="images/home/home1.jpg">
-                     <div class="overlay"></div>
-                     <div class="link-icon"><i class="fa fa-link"></i></div>
-                  </a>
-    					<!--div class="portfolio-item-meta">
-    					   <h5><a href="portfolio.html">Into The Light</a></h5>
-    					</div-->
-               </div>
-    			</div>
-
-         </div>
-
-      </div>
-
-   </section> <!-- Works Section End-->
+    <body>
+        <section class="section py-1 has-text-centered desi-background-1">
+	<div class="container">
+		<img src="https://desitrust.org/images/logo.png">
+		<hr class="my-1 rp-thin-line"></hr>
+		
+		
+			<a class="mx-2 px-2 has-background-warning-light has-text-black" href="/">Home</a>
+		
+			<a class="mx-2 px-2 has-text-warning-light" href="/about/">About</a>
+		
+			<a class="mx-2 px-2 has-text-warning-light" href="/trust/">The Trust</a>
+		
+			<a class="mx-2 px-2 has-text-warning-light" href="/handloom/">Handloom</a>
+		
+			<a class="mx-2 px-2 has-text-warning-light" href="/initiatives/">Initiatives</a>
+				
+		<hr class="my-1 rp-thin-line"></hr>
+	</div>
+</section>	
 
 
-   <!-- footer
-   ================================================== -->
-   <footer>
+        <div id="content">
+        
+<section class="hero is-primary is-medium desi-background-1">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns is-vcentered">
+				<div class="column is-6">
+					<h1 class="title is-1 is-hidden-tablet has-text-centered" style="font-size:3.25rem">
+						DESI Trust
+					</h1>
+					<h1 class="title is-1 is-hidden-mobile" style="font-size:6rem">
+						DESI Trust
+					</h1>
+				</div>
+				<div class="column is-6">
+					<div class="container">
+							<p>An initiative to connect conscious urban consumers to eco-friendly choices and products made by rural artisan communities, and create awareness towards a sustainable lifestyle.</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div class="hero-foot"></div>
+</section>
+	
+<section class="hero is-light is-bold is-small">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+								<figure class="image is-1by1">
+									<img src="https://desitrust.org/images/home2.jpg" alt="">
+								</figure>
+							</div>
+							<div class="card-content">
+								<h4 class="title is-4 mt-2">
+									<a class="has-text-dark" href="/">Rural Empowerment</a>
+								</h4>
+								<p>Promoting rural enterprises by providing alternative means of livelihood to villagers and augmenting their income in ecologically sensitive areas.</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+								<figure class="image is-1by1">
+									<img src="https://desitrust.org/images/home1.jpg" alt="">
+								</figure>
+							</div>
+							<div class="card-content">
+								<h4 class="title is-4 mt-2">
+									<a class="has-text-dark" href="/">Sustainability</a>
+								</h4>
+								<p>Reviving traditional practices of Natural dyeing and Hand operated processes to ensure least ecological impact and lesser dependence on machinery.</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+								<figure class="image is-1by1">
+									<img src="https://desitrust.org/images/home3.jpg" alt="">
+								</figure>
+							</div>
+							<div class="card-content">
+								<h4 class="title is-4 mt-2">
+									<a class="has-text-dark" href="/">Ecological Impact</a>
+								</h4>
+								<p>Striving for minimum ecological impact due to adoption of methodologies that are least damaging.</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+								<figure class="image is-1by1">
+									<img src="https://desitrust.org/images/home4.jpg" alt="">
+								</figure>
+							</div>
+							<div class="card-content">
+								<h4 class="title is-4 mt-2">
+									<a class="has-text-dark" href="/">Affordability</a>
+								</h4>
+								<p>Ensuring that the products are priced fairly for both the producer and consumer to make them affordable.</p>
+							</div>
+						</div>   
+					</div>				
+				
+			</div>			
+		</div>
+		<div class="container has-text-centered">
+			<a class="button has-background-success-dark is-small is-rounded px-3 py-3 mt-5" href="https://desitrust.org/about/">
+				<h6 class="subtitle is-6 has-text-white">Click to know more</h6>
+			</a>
+		</div>		
+	</div>	
+	<div class="hero-foot"></div>
+</section>
 
-      <div class="row">
+<section class="hero is-warning is-medium desi-background-2">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<h1 class="title is-1">Shop online</h1>
+			<a class="button has-background-danger-dark is-rounded px-5 py-5" href="https://desihandmade.com" target="_new"><h5 class="title is-5 has-text-white"><em class="fas fa-external-link-alt mr-3"></em>desihandmade.com</h5></a>
+		</div>
+	</div>
+	<div class="hero-foot"></div>
+</section>
 
-         <div class="twelve columns">
+<section class="hero is-dark is-bold is-small">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+	</div>	
+	<div class="hero-foot"></div>
+</section>	
+<section class="hero is-warning is-medium desi-background-2">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container has-text-centered">
+			<h1 class="title is-1">Visit our outlets</h1>
+		</div>		
+		<div class="container mt-5">			
+			<div class="columns is-multiline">
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">South End, Bengaluru</a>
+								</h6>
+								<p>No.27, Patalamma Temple Street, near South End Circle, Basavanagudi, Bengaluru - 560 004</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>080 26576669 / 26567155</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Seetha Circle, Bengaluru</a>
+								</h6>
+								<p>Old.No.97, New No.12, 5th Cross, near Seetha Circle, Girinagar, Banashanakri 1st Stage, Bengaluru - 560 050</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>080 26721876</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Malleswaram, Bengaluru</a>
+								</h6>
+								<p>No.60/1, 5th Main, Opp:ICICI Bank, Malleswaram, Bengaluru - 560 003</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>080 23468239</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Dharawada</a>
+								</h6>
+								<p>&#39;Sangamitra&#39;, Old Dosa Camp, Yelakki Shettar Colony, 1st Main, Hubli Road, Dharawada - 580 004</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>0836 2461220</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Shivamogga</a>
+								</h6>
+								<p>1st Floor, Meenakshi Bhavan, B.H.Road, Shivamogga - 577 201</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>08182 270636</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Mysuru</a>
+								</h6>
+								<p>No.986, 1st Floor, Panchamantra Road, Kuvempunagar, Mysuru - 570 023</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>0821 2546823</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Heggodu</a>
+								</h6>
+								<p>Kavi-Kavya Compound, Bheemanakone Road, Heggodu, Sagar-Shimoga</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>08183 265693</p>
+							</div>
+						</div>   
+					</div>				
+				
+					<div class="column is-3">
+						<div class="card has-background-light" style="height:100%">
+							<div class="card-image">
+							</div>
+							<div class="card-content">
+								<h6 class="title is-6 mt-2">
+									<a class="has-text-dark" href="/">Sagara</a>
+								</h6>
+								<p>1st Floor, Mrutyunjay Bapat Building,S.P.M. Road, near Ganesha Temple, Sagara, Sagara-Shivamogga</p>
+								<p><em class="fas fa-phone pr-1 mt-2"></em>08183 226607</p>
+							</div>
+						</div>   
+					</div>				
+				
+			</div>						
+		</div>
+	</div>
+	<div class="hero-foot"></div>
+</section>
 
-            <ul class="footer-social">
-               <li><a target="_blank" href="https://www.facebook.com/desi.trust"><i class="fa fa-facebook"></i> desi.trust</a></li>
-               <li><a target="_blank" href="https://www.twitter.com/desitrust"><i class="fa fa-twitter"></i> @desitrust</a></li>
-               <li><a target="_blank" href="mailto:desitrust@gmail.com"><i class="fa fa-mail-reply"></i> desitrust@gmail.com</a></li>
-               <li><a href="#"><i class="fa fa-phone"></i> +91 9483361466</a></li>
+<section class="hero is-small is-bold">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container is-max-desktop">
+			<figure class="image">
+				<img src="https://desitrust.org/images/collage.png">
+			</figure>
+		</div>
+		<div class="container has-text-centered">
+			<a class="button has-background-success-dark is-small is-rounded px-3 py-3 mt-5" href="https://desitrust.org/initiatives/">
+				<h6 class="subtitle is-6 has-text-white px-5 py-4">Read about our Impact</h6>
+			</a>								
+		</div>		
+	</div>	
+	<div class="hero-foot"></div>
+</section>
 
-            </ul>
+<section class="hero is-light is-medium desi-background-3">
+	<div class="hero-head"></div>
+	<div class="hero-body">
+		<div class="container is-max-desktop">
+			<h6 class="subtitle has-text-white is-size-6-mobile is-size-6-tablet is-size-4-desktop is-size-3-widescreen">Handloom is the name given to fabric that is woven by a hand-operated weaving machine or &#39;loom&#39;. It is also referred to as &#39;hand woven&#39;. </h6>
+		</div>
+		<div class="container has-text-centered">
+			<a class="button has-background-success-dark is-small is-rounded px-3 py-3 mt-5" href="https://desitrust.org/handloom/">
+				<h6 class="subtitle is-6 has-text-white">Read more</h6>
+			</a>					
+		</div>		
+	</div>	
+	<div class="hero-foot"></div>
+</section>
 
-            <ul class="copyright">
-               <li>Copyright &copy; 2014 Sparrow</li> 
-               <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>               
-            </ul>
 
-         </div>
+        </div>
+        <section class="section px-3 py-5 has-background-warning-light">
+			
+			<div class="container is-max-desktop has-text-centered px-5">
+				<h6 class="title is-6 mb-1 mt-2 has-text-danger">Links</h6>
+				<hr class="my-1"></hr>
+				
+					<a class="mx-2" href="/">Home</a>
+				
+					<a class="mx-2" href="/about/">About</a>
+				
+					<a class="mx-2" href="/trust/">The Trust</a>
+				
+					<a class="mx-2" href="/handloom/">Handloom</a>
+				
+					<a class="mx-2" href="/initiatives/">Initiatives</a>
+				
+				<h6 class="title is-6 mt-4 mb-1 has-text-danger">Contact Details</h6>
+				<hr class="my-1"></hr>
+				
+					<a href="https://www.facebook.com/desi.trust" target="_new"><em class="fab fa-facebook-square mr-2"></em></a>
+				
+					<a href="https://www.instagram.com/desi_trust/" target="_new"><em class="fab fa-instagram mr-2"></em></a>
+				
+					<a href="https://www.twitter.com/desitrust" target="_new"><em class="fab fa-twitter mr-2"></em></a>
+				
+					<a href="mailto:desitrust@gmail.com" target="_new"><em class="fas fa-envelope mr-2"></em></a>
+				
+					<a href="https://wa.me/&#43;919483361466" target="_new"><em class="fab fa-whatsapp mr-2"></em></a>
+				
+				<h6 class="title is-6 mt-4 mb-1 has-text-danger">Head Office</h6>
+				<hr class="my-1"></hr>
+				<h6 class="subtitle is-6 mt-3 mb-1 has-text-info" style="font-size:0.75em">Old.No.97, New No.12, 1st floor, 5th Cross, near Seetha Circle, Girinagar, Banashanakri 1st Stage, Bengaluru - 560050</h6>
+				<p class="is-6 mt-1 mb-1 has-text-info" style="font-size:0.75em"><em class="fas fa-phone pr-1"></em>080 26422118</p>
 
-         <div id="go-top" style="display: block;"><a title="Back to Top" href="#">Go To Top</a></div>
+			</div>
+		<hr></hr>
+		<p class="has-text-centered has-text-grey-light" style="font-size:0.75em">
+			Copyright <a href="https://desitrust.org" class="has-text-grey mr-2">desitrust.org</a>|
+			Designed by <a href="https://hoatz.in" class="has-text-grey">hoatz.in</a>
+		</p>
+</section>
 
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/doubletaptogo.js"></script>
-   <script src="js/init.js"></script>
-
-</body>
-
+    </body>
 </html>
