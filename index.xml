@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DESI Trust</title>
+    <title>DESI TRUST</title>
     <link>https://desitrust.org/</link>
-    <description>Recent content on DESI Trust</description>
+    <description>Recent content on DESI TRUST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://desitrust.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABOUT</title>
+      <link>https://desitrust.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://desitrust.org/about/</guid>
+      <description>History DESI Trust was started in 1997 in Bengaluru with the purpose of marketing naturally-dyed handwoven products made by Charaka Womens&#39; Society in a way that appealed to the urban market. It aimed to build a working relationship with informed and sympathetic patrons from the city. Gradually, it opened outlets all across Karnataka in 15 locations. These DESI outlets sell handloom, handcrafted and food products from across India in addition to Charaka’s products.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://desitrust.org/about-copy/</link>
@@ -16,16 +25,7 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://desitrust.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://desitrust.org/about/</guid>
-      <description>History DESI Trust was started in 1997 in Bengaluru with the purpose of marketing naturally-dyed handwoven products made by Charaka Womens&#39; Society in a way that appealed to the urban market. It aimed to build a working relationship with informed and sympathetic patrons from the city. Gradually, it opened outlets all across Karnataka in 15 locations. These DESI outlets sell handloom, handcrafted and food products from across India in addition to Charaka’s products.</description>
-    </item>
-    
-    <item>
-      <title>Handloom</title>
+      <title>HANDLOOM</title>
       <link>https://desitrust.org/handloom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Initiatives</title>
+      <title>INITIATIVES</title>
       <link>https://desitrust.org/initiatives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>The Trust</title>
+      <title>THE TRUST</title>
       <link>https://desitrust.org/trust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

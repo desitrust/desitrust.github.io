@@ -1,4 +1,6 @@
 @font-face {  font-family: "Trocchi";  font-style: normal; font-weight:400 ; src: url('../fonts/trocchi/Trocchi-Regular.ttf'); }
+@font-face {  font-family: "Anton";  font-style: normal; font-weight:400 ; src: url('../fonts/anton/Anton-Regular.ttf'); }
+
 
 body,
 button,
@@ -7,6 +9,10 @@ optgroup,
 select,
 textarea {
   font-family: "Trocchi", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+.rp-title {
+  font-family: "Anton", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 .desi-background-1 {
@@ -28,4 +34,20 @@ textarea {
 	border: 0px solid white !important;
 	background-color: gray !important;
 	height: 1px;
+}
+
+.desi-bg-maroon {
+	background-color: #8F2F2C !important;
+}
+
+.desi-bg-cream {
+	background-color: #F8F6DF !important;
+}
+
+.desi-text-maroon {
+	color: #8F2F2C !important;
+}
+
+.desi-menu-hover:hover {
+	text-decoration: underline !important;
 }
