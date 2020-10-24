@@ -30,6 +30,11 @@ textarea {
 	background-attachment: fixed;
 }
 
+.desi-background-4 {
+	background-image: url('../images/handloom/naturaldyeing.jpg');
+	background-attachment: fixed;
+}
+
 .rp-thin-line {
 	border: 0px solid white !important;
 	background-color: gray !important;
